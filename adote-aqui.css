@@ -1,0 +1,63 @@
+*{padding: 0px;
+    margin: 0px;
+
+}
+body{
+    font-family: 'Andada Pro', serif;
+}
+img{
+    width: 70px;
+    height: 70px;
+}
+
+.logo{
+    display:flex;
+    flex-direction: column;
+}
+nav{
+    background-color: #b5838d;
+    padding: 0 30px;
+    justify-content: space-between;  
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+li {
+    padding: 0 30px
+}
+h1, p{
+    color: #6d6875;
+}
+nav, ul{
+    display:flex;
+    flex-direction: row;
+}
+
+h1:hover{
+    cursor: pointer;
+    color: #e5989b;
+    font-family: 'ANANDA PRO', serif; 
+    font-size: 55px;  
+}
+h1:active{
+    color:greenyellow;
+}
+p:hover {
+    cursor: pointer;
+    color: #e5989b;
+}
+
+@media (max-width: 600px)
+{
+    .logo{
+        display:none;
+        
+    }
+    nav, ul{
+        display:flex;
+        flex-direction: column;
+    }
+
+
+}
