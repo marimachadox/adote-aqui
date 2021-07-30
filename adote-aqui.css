@@ -1,13 +1,12 @@
+
+}
 *{padding: 0px;
     margin: 0px;
 
 }
 body{
     font-family: 'Andada Pro', serif;
-}
-img{
-    width: 70px;
-    height: 70px;
+    background-color: #6d6875;
 }
 
 .logo{
@@ -47,7 +46,31 @@ p:hover {
     cursor: pointer;
     color: #e5989b;
 }
+h3 {
+    text-align: center;
+    color: #b5838d;
+}
 
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.container > div {
+    flex: 1 1 200px;
+    margin: 10px;
+
+}
+img:hover {height: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+.adote{
+    width: 20%;
+    margin: 5px;
+
+}
 @media (max-width: 600px)
 {
     .logo{
@@ -58,6 +81,11 @@ p:hover {
         display:flex;
         flex-direction: column;
     }
-
-
-}
+    .container{
+        display: flex;
+        flex-wrap: Wrap;
+    }
+    .adote{
+        width: 80% !important;
+        margin: 5px;
+    }
