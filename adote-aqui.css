@@ -1,5 +1,3 @@
-
-}
 *{padding: 0px;
     margin: 0px;
 
@@ -37,14 +35,17 @@ h1:hover{
     cursor: pointer;
     color: #e5989b;
     font-family: 'ANANDA PRO', serif; 
-    font-size: 55px;  
+    font-size: 55px;
+    transition: 3s;
 }
 h1:active{
     color:greenyellow;
+    transition: 1s;
 }
 p:hover {
     cursor: pointer;
     color: #e5989b;
+    transition-duration: 1s;
 }
 h3 {
     text-align: center;
@@ -64,13 +65,23 @@ h3 {
 }
 img:hover {height: 200px;
     height: 200px;
-    border-radius: 100%;
+    border-radius: 50%;
+    transition: 3s;
+    
 }
 .adote{
     width: 20%;
     margin: 5px;
 
 }
+
+.rodape {
+    background-color: #b5838d;
+    text-align: center;
+    
+
+}
+
 @media (max-width: 600px)
 {
     .logo{
@@ -89,3 +100,4 @@ img:hover {height: 200px;
         width: 80% !important;
         margin: 5px;
     }
+}
